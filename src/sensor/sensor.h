@@ -1,4 +1,3 @@
-// Base sensor class 
 class Sensor {
 public:
   Sensor();
@@ -7,13 +6,14 @@ public:
   Sensor &operator=(Sensor &&) = default;
   Sensor &operator=(const Sensor &) = default;
   ~Sensor();
+  
+
 
 private:
-  
+
 };
 
 Sensor::Sensor() {
-  
 }
 
 Sensor::~Sensor() {
